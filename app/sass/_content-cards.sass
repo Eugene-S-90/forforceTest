@@ -1,0 +1,85 @@
+
+
+.content_card_grid
+    border-top: 1px solid $grey
+    padding-top: 20px
+    margin-top: 20px
+
+
+.content_card_grid_CARD
+    cursor: pointer 
+    transition: 0.2s all
+    position: relative
+    padding: 8px
+    &:hover
+        box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.75)
+        .content_card_grid_CARD_feedback
+            opacity: 1!important
+
+    h6
+    &:hover
+         color: $blue
+         opacity: 1
+   
+
+
+.content_card_grid_CARD_body 
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    min-height: 300px
+
+
+.content_card_grid_CARD_label_NEW 
+    position: absolute
+    border: 3px solid $blue_label
+    padding: 8px 5px
+    color: $blue_label
+
+.content_card_grid_CARD_label_HIT
+    position: absolute
+    border: 3px solid $orange
+    padding: 8px 5px
+    color: $orange
+
+.content_card_grid_CARD_label_TOP10
+    position: absolute
+    text-align: center
+    border: 3px solid $pink
+    padding: 0px 5px
+    color: $pink
+
+
+.content_card_grid_CARD_feedback
+    position: absolute
+    right: 10px
+    top: 10px
+    opacity: 0
+
+.content_card_grid_CARD_body_title
+ margin: 0px
+
+
+.content_card_grid_CARD_body_subtitle
+    text-align: center
+
+
+.content_card_grid_CARD_body_wrapper_feedback
+   margin-left: -15px
+   span
+    position: relative
+    top: 2px
+    left: -3px
+
+.content_card_grid_CARD_body_price
+    color: $black
+
+.content_card_grid_CARD_body_old_price
+    color: $grey
+    text-decoration: line-through!important
+
+.content_card_grid_CARD_body_img
+    width: auto
+    height: 150px
+

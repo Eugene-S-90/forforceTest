@@ -1,0 +1,54 @@
+
+$black: #000
+$blue: #46939c
+$pink: #ffbcc9
+$grey: #b4b4b4
+$light: lighten($black,50%)
+$dark: darken($blue,15%)
+$blue_label: #8bd6f3
+$orange: #f9c597
+
+@font-face 
+  font-family: 'museo'
+  src: url('../libs/fonts/museo.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+body
+  margin: 0px
+  padding: 0px
+  font-size: 14px
+  font-family: 'museo', normal
+
+main
+  max-width: 1360px
+  padding: 0
+  margin: 0 auto
+  border: none
+
+p
+  padding: 0px
+  margin: 0px
+
+a
+  text-decoration: none!important
+  transition: 0.3s all
+
+ul
+  padding: 0
+  margin: 0
+
+@import "header"
+@import "nav"
+@import "main-content"
+@import "main-content-side-nav"
+@import "content-cards"
+@import "content-button"
+@import "page-nav"
+@import "range-slider"
+@import "footer"
+@import "media"
+
+
+
+

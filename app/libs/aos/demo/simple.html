@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AOS - Animate on scroll library</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../dist/aos.css" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <div class="item" data-aos="fade-up">1</div>
+<div class="item" data-aos="fade-down">2</div>
+<div class="item" data-aos="fade-right">3</div>
+<div class="item" data-aos="fade-left">4</div>
+
+<div class="item" data-aos="zoom-in">5</div>
+<div class="item" data-aos="zoom-out">6</div>
+
+<div class="item" data-aos="slide-up">7</div>
+
+<div class="item" data-aos="flip-up">8</div>
+<div class="item" data-aos="flip-down">9</div>
+<div class="item" data-aos="flip-right">10</div>
+<div class="item" data-aos="flip-left">11</div>
+
+    <script src="../dist/aos.js"></script>
+    <script>
+      AOS.init({
+  duration: 1200,
+})
+    </script>
+
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
+    <script>
+      requirejs.config({
+          baseUrl: '../dist',
+      });
+
+      require(['aos'], function(AOS){
+          AOS.init({
+              easing: 'ease-in-out-sine'
+          });
+      });
+    </script> -->
+  </body>
+</html>
