@@ -8,7 +8,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 14px;
-  font-family: 'museo', normal; }
+  font-family: 'museo', normal;
+  overflow-x: hidden; }
 
 main {
   max-width: 1360px;
@@ -86,6 +87,7 @@ header {
 .lang_dropdown {
   position: absolute;
   top: 20px;
+  right: 26px;
   -webkit-transition: 1s all;
   transition: 1s all;
   opacity: 0;
